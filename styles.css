@@ -1,0 +1,86 @@
+*{
+    background-color: #62e653;
+    font-family: 'Inter';
+    font-weight: 200px;
+    font-size: 32px;
+    line-height: 150%;
+
+}
+.logo{
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 15%;
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+.text-area{
+    border: none;
+    color: #000000;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder{color: #000000;}
+.text-area:focus{
+    outline:none;
+}
+.mensaje{
+    background: white;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border: none;
+    border-radius: 24px;
+    color:#000000;
+    height: 780px;
+    width: 400px;
+    margin-left: 798px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    
+    
+}
+.mensaje:focus{
+    outline: none;
+}
+.botones{
+    display: flex;
+    margin-top: 18px;
+
+}
+.btn-encriptar{
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-right: 10px;
+}
+.btn-desencriptar{
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+.btn-copiar{
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 180px;
+    background-color: #000000;
+    border: 1px solid #fffafa;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+}
+.informacion{
+    color: #000000;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
